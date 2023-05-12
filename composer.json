@@ -1,5 +1,6 @@
 {
-  "name": "vendor_name/role",
+  "name": "nucleus/role",
+  "version": "0.4.0",
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
