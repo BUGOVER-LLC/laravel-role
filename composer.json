@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/role",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "artak",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Service\\Role\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Service\\Role\\RoleServiceProvider"
+      ]
+    }
+  }
+}
