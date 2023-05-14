@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Nucleus\Role\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Src\Models\Franchise\Franchise;
-use Src\Models\Franchise\FranchiseModule;
-use Src\Models\Role\Role;
+use Nucleus\Models\Franchise\Franchise;
+use Nucleus\Models\Franchise\FranchiseModule;
+use Nucleus\Models\Role\Role;
 
 use function count;
 

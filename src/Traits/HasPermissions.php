@@ -12,10 +12,10 @@ use ReflectionException;
 use Nucleus\Role\Contracts\PermissionModelContract;
 use Nucleus\Role\RoleRegister;
 use Nucleus\Role\Common\Guard;
-use Src\Exceptions\Role\GuardDoesNotMatch;
-use Src\Exceptions\Role\PermissionDoesNotExist;
-use Src\Models\Role\Permission;
-use Src\Models\Role\Role;
+use Nucleus\Role\Exceptions\GuardDoesNotMatch;
+use Nucleus\Role\Exceptions\PermissionDoesNotExist;
+use Nucleus\Models\Role\Permission;
+use Nucleus\Models\Role\Role;
 
 /**
  * Trait HasPermissions

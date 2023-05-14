@@ -14,7 +14,7 @@ use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
 use Nucleus\Role\Contracts\PermissionModelContract;
 use Nucleus\Role\Contracts\RoleModelContract as Role;
-use Src\Exceptions\Role\PermissionDoesNotExist;
+use Nucleus\Role\Exceptions\PermissionDoesNotExist;
 
 /**
  * Class RoleRegister
