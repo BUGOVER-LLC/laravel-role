@@ -27,6 +27,8 @@ class RoleServiceProvider extends ServiceProvider
      */
     public function boot(RoleRegister $permissionLoader, Filesystem $filesystem): void
     {
+        $this->publishConfig();
+
         if ($this->app->runningInConsole()) {
             $this->commands(
                 [
@@ -195,5 +197,17 @@ class RoleServiceProvider extends ServiceProvider
                 return $this;
             }
         );
+    }
+
+    public function publishConfig()
+    {
+        if (File::exists(\dirname(__DIR__) . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'package' . DIRECTORY_SEPARATOR . 'config.php')) {
+            $this->mergeConfigFrom(
+                \dirname(__DIR__) . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'package' . DIRECTORY_SEPARATOR . 'config.php',
+                'permission'
+            );
+            // Publish config
+            $this->publishesConfig('permission');
+        }
     }
 }
