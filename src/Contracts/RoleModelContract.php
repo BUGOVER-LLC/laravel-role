@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Contracts;
+namespace Nucleus\Role\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Src\Exceptions\Role\RoleDoesNotExist;

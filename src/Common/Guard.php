@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Common;
+namespace Nucleus\Role\Common;
 
 use Illuminate\Support\Collection;
 use ReflectionClass;

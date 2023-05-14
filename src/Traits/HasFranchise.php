@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Traits;
+namespace Nucleus\Role\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Src\Models\Franchise\Franchise;

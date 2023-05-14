@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 
-namespace Service\Role\Contracts;
+namespace Nucleus\Role\Contracts;
 
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Service\Role\Contracts\PermissionModelContract as Permission;
+use Nucleus\Role\Contracts\PermissionModelContract as Permission;
 use Src\Exceptions\Role\PermissionDoesNotExist;
 
 /**

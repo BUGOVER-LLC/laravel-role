@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Commands;
+namespace Nucleus\Role\Commands;
 
 use Illuminate\Console\Command;
-use Service\Role\RoleRegister;
+use Nucleus\Role\RoleRegister;
 
 /**
  * Class CacheReset

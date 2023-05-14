@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Service\Role;
+namespace Nucleus\Role;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Routing\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Service\Role\Commands\CacheReset;
-use Service\Role\Commands\CreatePermission;
-use Service\Role\Commands\CreateRole;
-use Service\Role\Commands\Show;
-use Service\Role\Contracts\PermissionModelContract as PermissionContract;
-use Service\Role\Contracts\RoleModelContract as RoleContract;
+use Nucleus\Role\Commands\CacheReset;
+use Nucleus\Role\Commands\CreatePermission;
+use Nucleus\Role\Commands\CreateRole;
+use Nucleus\Role\Commands\Show;
+use Nucleus\Role\Contracts\PermissionModelContract as PermissionContract;
+use Nucleus\Role\Contracts\RoleModelContract as RoleContract;
 
 /**
  * Class RoleServiceProvider

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Commands;
+namespace Nucleus\Role\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;

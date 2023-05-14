@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Service\Role;
+namespace Nucleus\Role;
 
 use DateInterval;
 use Illuminate\Cache\CacheManager;
@@ -12,8 +12,8 @@ use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
-use Service\Role\Contracts\PermissionModelContract;
-use Service\Role\Contracts\RoleModelContract as Role;
+use Nucleus\Role\Contracts\PermissionModelContract;
+use Nucleus\Role\Contracts\RoleModelContract as Role;
 use Src\Exceptions\Role\PermissionDoesNotExist;
 
 /**

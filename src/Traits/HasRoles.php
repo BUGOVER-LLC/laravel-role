@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Traits;
+namespace Nucleus\Role\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Collection;
 use ReflectionException;
 use RuntimeException;
-use Service\Models\Entity\ServiceAuthenticable;
-use Service\Role\Contracts\RoleModelContract;
-use Service\Role\RoleRegister;
+use Nucleus\Models\Entity\ServiceAuthenticable;
+use Nucleus\Role\Contracts\RoleModelContract;
+use Nucleus\Role\RoleRegister;
 use Src\Models\Role\Permission;
 use Src\Models\Role\Role;
 

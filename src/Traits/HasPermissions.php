@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Service\Role\Traits;
+namespace Nucleus\Role\Traits;
 
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Collection;
 use ReflectionException;
-use Service\Role\Contracts\PermissionModelContract;
-use Service\Role\RoleRegister;
-use Service\Role\Common\Guard;
+use Nucleus\Role\Contracts\PermissionModelContract;
+use Nucleus\Role\RoleRegister;
+use Nucleus\Role\Common\Guard;
 use Src\Exceptions\Role\GuardDoesNotMatch;
 use Src\Exceptions\Role\PermissionDoesNotExist;
 use Src\Models\Role\Permission;
