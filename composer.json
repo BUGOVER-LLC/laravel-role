@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Service\\Role\\RoleServiceProvider"
+        "Nucleus\\Role\\RoleServiceProvider"
       ]
     }
   }

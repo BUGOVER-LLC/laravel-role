@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-
 namespace Nucleus\Role\Contracts;
-
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Nucleus\Role\Contracts\PermissionModelContract as Permission;
