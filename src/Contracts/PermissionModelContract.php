@@ -6,7 +6,7 @@ namespace Nucleus\Role\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Nucleus\Role\Contracts\PermissionModelContract as Permission;
-use Src\Exceptions\Role\PermissionDoesNotExist;
+use Nucleus\Role\Exceptions\PermissionDoesNotExist;
 
 /**
  * Interface PermissionModelContract

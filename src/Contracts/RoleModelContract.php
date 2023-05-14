@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Nucleus\Role\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Src\Exceptions\Role\RoleDoesNotExist;
-use Src\Models\Role\Permission;
-use Src\Models\Role\Role;
+use Nucleus\Role\Exceptions\RoleDoesNotExist;
+use Nucleus\Role\Models\Permission;
+use Nucleus\Role\Models\Role;
 
 /**
  * Interface RoleModelContract
