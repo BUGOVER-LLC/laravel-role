@@ -56,8 +56,10 @@ class RoleServiceProvider extends ServiceProvider
     {
         $config = $this->app->config['permission.models'];
 
-        $this->app->bind(PermissionContract::class, $config['permission']);
-        $this->app->bind(RoleContract::class, $config['role']);
+        if ($config['permission'] ?? false) {
+            $this->app->bind(PermissionContract::class, $config['permission']);
+            $this->app->bind(RoleContract::class, $config['role']);
+        }
     }
 
     /**
